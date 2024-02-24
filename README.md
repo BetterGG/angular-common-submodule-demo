@@ -4,15 +4,10 @@ submodule 的 demo
 # 尝试公共组件
 
 ## 添加子项目
-
-命令：
 ```
 git submodule add <子项目git地址> <存放子项目的相对路径>
-```
-
-例如：
-```
-git submodule add https://github.com/BetterGG/angular-common-submodule-demo.git ./src/subModule
+eg:
+git submodule add https://github.com/BetterGG/angular-common-submodule-demo.git ./src/angularCommonSubmoduleDemo
 ```
 问题：
 遇见报错Working tree has modifications.  Cannot add.
